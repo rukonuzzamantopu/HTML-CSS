@@ -74,3 +74,15 @@ body {
     border : 2px solid rgb(153, 28, 63);
     border-radius: 50% 50% 0 0;
 }
+#first
+{
+    background-color: rgb(230, 210, 212);
+}
+#secend
+{
+    background-color: #d9e5e7
+}
+#third
+{
+    background-color: #E3EBDB
+}
