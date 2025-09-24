@@ -128,19 +128,6 @@ body {
 #third {
   background-color: #e3ecdc;
 }
-
-
-/* shared styles */
-
-.gray {
-  color: rgba(39, 39, 39, 0.8);
-  font-family: Lato;
-  text-align: center;
-  line-height: 25px;
-}
-span {
-  color: rgb(229, 84, 115);
-}
 .test {
   border-radius: 50%;
 }
@@ -186,6 +173,66 @@ span {
   justify-content: center;
   align-items: center;
 }
+.deals-content p {
+  margin-bottom: 30px;
+}
+.deals-content h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.deals-content input {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#subscribe-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(229, 84, 115);
+  color: white;
+}
+/* shared styles */
+
+.gray {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  text-align: center;
+  line-height: 25px;
+}
+span {
+  color: rgb(229, 84, 115);
+}
+
+/* support and delivery section */
+.supportanddelivery-container {
+  width: 1260px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 140px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.supportanddelivery-container .imageandtext {
+  width: 25%;
+  height: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.supportanddelivery-container .imageandtext img {
+  width: 88px;
+  height: 88px;
+}
 
 /* hot deal section start */
 main .hotdeal {
@@ -227,6 +274,7 @@ main .hotdeal .text-img-container .textcontainer button {
   margin-top: 10px;
   color: white;
 }
+
 /* footer section start */
 
 footer {
