@@ -128,3 +128,102 @@ body {
 #third {
   background-color: #e3ecdc;
 }
+
+
+/* shared styles */
+
+.gray {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  text-align: center;
+  line-height: 25px;
+}
+span {
+  color: rgb(229, 84, 115);
+}
+.test {
+  border-radius: 50%;
+}
+.instagram-section-container {
+  width: 1260px;
+  height: 1050px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.instagrom-text-content {
+  height: 132px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.first-insta-image {
+  width: 100%;
+  height: 425px;
+  border-radius: 10px;
+}
+.first-insta-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.instagram-image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.super-deals-container {
+  width: 1260px;
+  height: 449px;
+  margin: 0 auto;
+  background-image: url("../images/latest-deals-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.super-deals-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hot deal section start */
+main .hotdeal {
+  width: 100%;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .hotdeal .text-img-container {
+  width: 1260px;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+main .hotdeal .text-img-container > div {
+  width: 45%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .hotdeal .text-img-container .textcontainer {
+  display: flex;
+  row-gap: 20px;
+}
+
+main .hotdeal .text-img-container .textcontainer button {
+  width: 150px;
+  height: 45px;
+  background-color: rgb(229, 84, 115);
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: white;
+}
