@@ -173,6 +173,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .deals-content p {
   margin-bottom: 30px;
 }
@@ -206,6 +207,7 @@ body {
 span {
   color: rgb(229, 84, 115);
 }
+
 
 /* support and delivery section */
 .supportanddelivery-container {
