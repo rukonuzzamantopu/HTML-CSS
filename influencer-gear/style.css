@@ -1,3 +1,48 @@
+/* Header nav icon styles for search and cart */
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  position: relative;
+  transition: background 0.15s;
+  border-radius: 50%;
+}
+.icon-link:hover {
+  background: #f3f3f3;
+}
+.search-icon, .cart-icon {
+  display: block;
+  stroke: #222;
+}
+.cart-dot {
+  position: absolute;
+  top: 6px;
+  right: 7px;
+  width: 8px;
+  height: 8px;
+  background: #111;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px #222;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+@media (max-width: 900px) {
+  .icon-link {
+    padding: 0 2px;
+  }
+  .search-icon, .cart-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
 /* Influencer Gear custom styles for search bar and shopping trolley (cart) */
 .search-bar {
   display: flex;
