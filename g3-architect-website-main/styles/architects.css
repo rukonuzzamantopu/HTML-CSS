@@ -267,3 +267,11 @@ main > section{
         margin-left: 20px;
     }
 }
+
+footer .footer{
+    background-color: #f4efd8;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin: 100px 150px;
+}
