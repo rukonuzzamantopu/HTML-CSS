@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="#" name="contact_form">
+            <label for="first_name">First Name</label>
+            <input name="first_name" type="text" required placeholder="John" />
+            <br>
+            <label for="last_name">Last Name</label>
+            <input name="last_name" type="text" required placeholder="Doe" />
+            <br>
+            <label for="password">password: </label>
+            <input type="password" name="password" required>
+            <br>
+            <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </form>
+            <br>
+            <h2>Checkboxes</h2>
+            <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+            <form>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+            </form>
+
+
+            <h1>The select element</h1>
+
+            <p>The select element is used to create a drop-down list.</p>
+
+            <form>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <option value="volvo">Bmw</option>
+                    <option value="saab">Ferrariy</option>
+                    <option value="opel">range rover</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br><br>
+            </form>
+            <label for="message">Message</label><br>
+            <textarea name="message" cols="30" rows="10" required placeholder="Enter your message here ..."></textarea>
+            <div class="center">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
