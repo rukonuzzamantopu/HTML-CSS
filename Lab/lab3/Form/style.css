@@ -23,14 +23,14 @@ h3 {
 /* Add styles to 'container' class */
 .container {
     padding: 12px 24px 24px 24px;
-    margin: 48px 12px;
+    margin: auto 400px;
     background: #E3F2FD;
     border-radius: 4px;
 }
 
 /* Add styles to 'label' selector */
 label {
-    font-size: 0.85em;
+    font-size: 1em;
     margin-left: 12px;
 }
 
@@ -80,4 +80,12 @@ input[type=submit]:hover {
 /* Align items to center of the 'div' with the class 'center' */
 .center {
     text-align: center;
+}
+form {
+    margin-bottom: 20px;
+   
+}
+
+.box1{
+    display: flex;
 }
