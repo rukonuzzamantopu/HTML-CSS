@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    
+    width: 50%;
+  }
+ 
+  
+  td{
+    border: 1px solid #c71a1a;
+    text-align: left;
+    padding: 10px;
+    border-style: dotted;
+  }
+  .header{
+    background-color:red;
+    text-align: center;
+  }

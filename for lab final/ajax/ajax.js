@@ -19,7 +19,7 @@ btn.addEventListener("click", function(){
     ourRequest.send();
 }
 
-    // Hide button after 3 clicks
+   
     
 });
 
@@ -59,3 +59,4 @@ function renderAnimal(data) {
     // Insert the data into the HTML div
     animalContainar.insertAdjacentHTML('beforeend', readData);
 }
+
